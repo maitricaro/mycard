@@ -1,0 +1,111 @@
+.title {
+    font-family: "Libre Baskerville", serif;
+     font-weight: 400;
+    color:#0F362C;
+   
+    font-size: 5rem;
+    
+}
+
+.html {
+    background-color:#000
+}
+
+.navbar {
+  background-color: #E0BCC0
+ !important;
+}
+.nav-item {
+   color: #0F362C;
+}
+
+
+  .my-photo {
+    border-radius: 50%;
+    border: 5px #000 solid;
+}
+
+.text {
+    font-family: 'Gill Sans', sans-serif;
+    color:black;
+    font-weight: 500; 
+}
+
+.hero1 {
+    background-color:#E0DFBC;
+}
+
+.feature {
+    background-color: #BCD4E0;
+}
+
+.subtitle {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: left;
+    
+}
+.customer-service {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:beige;
+   align-items: center;
+   gap: 10px;
+}
+.book {
+    
+    width: 70%;
+    height: 70%;
+    display: flex;
+    border: 5px #000 solid;
+    margin: 30px 
+  
+}
+
+.psychology {
+    margin: 30px;
+}
+.slide {
+    height: 100vh;
+    width: auto;
+}
+
+.carousel {
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 50px;
+}
+
+.specialtext {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: italic;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form {
+    margin: 50px;
+    background-color:#E0DFBC;
+    padding: 50px;
+    border: 5px #000 solid;
+}
+
+@media (max-width: 576px) {
+    .customer-service{
+        grid-template-columns: 1fr;
+        
+    }
+}

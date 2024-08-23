@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"  >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maitri Joshi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="static/mysite.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{url_for('contact')}}">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--hero-->
+    <div class="px-4 py-5 my-5 text-center hero1">
+        <img class="my-photo d-block mx-auto mb-4" src="static/myphoto.jpg" alt="" width="200" height="200" >
+        <h1 class="display-5 title "> MAITRI JOSHI</span></h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead text mb-4"> | Post-Graduate Researcher in Psychology  | <br>
+             | Customer Support Specialist  | </p>
+        </div>
+      </div>
+
+      <!--features psychology-->
+      <div class="psychology row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="subtitle fw-bold text-body-emphasis "> Skills Driving My Research Journey</h2>
+          
+        </div>
+  
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="feature col d-flex flex-column gap-2">
+              <div class="button feature-icon-small d-inline-flex align-items-center justify-content-center text-bgfs-4 rounded-3" >
+                <img src="static/clipboard-data.svg" height="35px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Advanced Research and Analytical Skills</h4>
+              <p class="text-body-secondary">Mastered the ability to design, conduct, and analyze research, using rigorous methodologies to explore and understand complex psychological phenomena.</p>
+            </div>
+  
+            <div class="feature col d-flex flex-column gap-2">
+              <div class="button feature-icon-small d-inline-flex align-items-center justify-content-center text-bg bg-gradient  fs-4 rounded-3">
+                <img src="static/gear.svg" height="35px" >
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Critical Thinking and Problem-Solving</h4>
+              <p class="text-body-secondary">Developed strong critical thinking skills, allowing for deep analysis of existing theories and literature, and identifying innovative solutions to research challenges.</p>
+            </div>
+  
+            <div class="feature col d-flex flex-column gap-2">
+              <div class="button feature-icon-small d-inline-flex align-items-center justify-content-center text-bg bg-gradient fs-4 rounded-3">
+                <img src="static/robot.svg" height="35px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Data Analysis and Interpretation</h4>
+              <p class="text-body-secondary">Proficient in using statistical software to analyze quantitative data, draw meaningful conclusions, and support evidence-based research.</p>
+            </div>
+  
+            <div class="feature col d-flex flex-column gap-2">
+              <div class="button feature-icon-small d-inline-flex align-items-center justify-content-center text-bg bg-gradient fs-4 rounded-3">
+                <img src="static/clipboard-data.svg" height="35px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Academic Writing and Presentation</h4>
+              <p class="text-body-secondary">Enhanced skills in writing detailed research papers, reports, and presenting findings clearly and effectively to academic and professional audiences.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--new section-->
+      <div class="customer-service">
+        <img class="book" src="static/book.jpg" >
+          <div class="list"><h2 class="subtitle" style="padding: 20px;"> Highlights of my journey in Customer Support </h2>
+            <div class="list-items"> <ul>
+            <li> <h4  class="fw-semibold mb-0 text-body-emphasis"> 3+ years of remote Customer Service experience</h4></li>
+            <p class="text">Gained deep insights and honed skills in handling customer inquiries efficiently and empathetically for various e-commerce websites, through various channels, and using various CRMs. </p>
+            <li> <h4  class="fw-semibold mb-0 text-body-emphasis">Pattern recognition and Problem-solving</h4></li>
+            <p class="text"> Developed expertise in identifying underlying patterns in customer issues and implementing effective, resource-driven solutions.</p>
+            <li><h4  class="fw-semibold mb-0 text-body-emphasis">Effective Communication and Collaboration</h4></li>
+            <p class="text">Effecient in working with remote teams spread across time-zones, and leveraging tools for effective communication.</p>
+            <li><h4  class="fw-semibold mb-0 text-body-emphasis">Helpesk Specialist and Product Owner at Inner Circle</h4></li>
+            <p>Currently, I am putting to use my skills working for this niche dating app, turning our members into our fans. </p>
+          </ul>
+        </div>
+        </div>
+      </div>
+
+      <!--carousel-->
+      <div id="carouselExampleIndicators" class="carousel container slide">
+        <div class="row ">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/beach.jpg" class="slide d-block" alt="beach">
+          </div>
+          <div class="carousel-item">
+            <img src="static/tutueneves.jpg" class="slide d-block" alt="cockatiels">
+          </div>
+          <div class="carousel-item">
+            <img src="static/acaraje.jpg" class="slide d-block" alt="food">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="specialtext col-md-6 text-center">
+          <div class="text-content">
+              <p>In my free time, I love exploring nearby beaches, local delicacies, and spending time with my birbies. </p>
+          </div>
+      </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+     
+</html>

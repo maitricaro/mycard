@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('my-site.html')
+    return render_template('index.html')
 
 @app.route('/contact', methods = ['GET', 'POST'])
 def contact():
